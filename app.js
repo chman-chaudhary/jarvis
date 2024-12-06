@@ -63,7 +63,8 @@ function takeCommand(message) {
   } else if (
     message.includes("what is") ||
     message.includes("who is") ||
-    message.includes("what are")
+    message.includes("what are") ||
+    message.includes("where is")
   ) {
     window.open(
       `https://www.google.com/search?q=${message.replace(" ", "+")}`,
